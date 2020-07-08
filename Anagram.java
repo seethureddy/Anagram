@@ -18,8 +18,7 @@ public class Anagram {
         // Sort both strings 
         Arrays.sort(str1); 
         Arrays.sort(str2); 
-        
-        
+             
         // Method 1
         // Compare sorted strings 
         for (int i = 0; i < n1; i++) 
@@ -38,6 +37,7 @@ public class Anagram {
         char str1[] = { 't', 'e', 's', 't' }; 
         char str2[] = { 't', 't', 'e', 'w' }; 
         
+	//Method to pass char array as an argument
         if (areAnagram(str1, str2)) {
             System.out.println("The two strings are anagram of each other");
         }
@@ -47,7 +47,8 @@ public class Anagram {
         
         String s1 = "test";
         String s2 = "ttew";
-   
+        
+	// Method to pass strings as an argument
         if (Anagram(s1, s2)) 
             System.out.println("The two strings are anagram of each other"); 
         else
